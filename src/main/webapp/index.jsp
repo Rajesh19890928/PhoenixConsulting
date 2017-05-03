@@ -50,6 +50,12 @@
                             </form>                            
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <br><br>
+                            <a href="contactus.jsp" name="contactus"> Contact Us</a>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
     </body>
