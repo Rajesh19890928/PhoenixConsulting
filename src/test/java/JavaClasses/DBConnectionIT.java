@@ -28,7 +28,7 @@ public class DBConnectionIT {
         //WebDriver driver = new FirefoxDriver();
         WebDriver driver = new HtmlUnitDriver();
         
-        driver.get("http://54.169.72.231:8080/PConsulting/index.jsp");
+        driver.get("http://54.255.142.60:8080/PConsulting/index.jsp");
 
         // Check the title of the page
         // Wait for the page to load, timeout after 10 seconds
