@@ -28,7 +28,7 @@ public class DBConnectionIT {
         //WebDriver driver = new FirefoxDriver();
         WebDriver driver = new HtmlUnitDriver();
         
-        //driver.get("http://54.255.142.60:8080/PConsulting/index.jsp");
+        driver.get("http://54.255.142.60:8080/PConsulting/index.jsp");
 
         // Check the title of the page
         // Wait for the page to load, timeout after 10 seconds
@@ -38,22 +38,22 @@ public class DBConnectionIT {
               //  return d.getTitle().contains("NetBeans");
             //}
             
-        //String actualTitle = driver.getTitle();
-        //assertTrue(actualTitle.equalsIgnoreCase("Home Page - Phoenix"));
+        String actualTitle = driver.getTitle();
+        assertTrue(actualTitle.equalsIgnoreCase("Home Page - Phoenix"));
         
-        //WebElement element = driver.findElement(By.name("submit"));
-        //element.click();
+        WebElement element = driver.findElement(By.name("submit"));
+        element.click();
         
-        //actualTitle = driver.getTitle();
-        //assertTrue(actualTitle.equalsIgnoreCase("Phoenix Consulting - Details"));
+        actualTitle = driver.getTitle();
+        assertTrue(actualTitle.equalsIgnoreCase("Phoenix Consulting - Details"));
         
-        //element = driver.findElement(By.name("back"));
-        //element.click();
+        element = driver.findElement(By.name("back"));
+        element.click();
         
-        //actualTitle = driver.getTitle();
-        //assertTrue(actualTitle.equalsIgnoreCase("Home Page - Phoenix"));
+        actualTitle = driver.getTitle();
+        assertTrue(actualTitle.equalsIgnoreCase("Home Page - Phoenix"));
         //Close the browser  
-        //driver.quit();
+        driver.quit();
         
         }        
     }
