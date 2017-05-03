@@ -20,25 +20,25 @@
         <table border="0">
             <tbody>
                 <tr>
-                    <td width="30%"><strong>Call us: </strong></td>
-                    <td width="70%">We're available 24 hours a day.<br>
+                    <td width="20%"><strong>Call us: </strong></td>
+                    <td width="80%">We're available 24 hours a day.<br>
                         <b>(0124) 6151234 or 1800 208 6868</b>
                     </td>
                 </tr>
                 
                 <tr>
-                   <td width="30%"><strong>Mail us:: </strong></td>
-                   <td width="70%">
-                       Phoenix Consulting LLP,
-                       Ozone Manay Tech Park,
-                       58/11 & 25/19, 9th Floor,
-                       Garvebhavipalya, Hosur Road,
-                       Bangalore - 560068,
-                       Karnataka, India.
+                   <td width="20%"><strong>Mail us:: </strong></td>
+                   <td width="80%">
+                       Phoenix Consulting LLP,<br>
+                       Ozone Manay Tech Park,<br>
+                       58/11 & 25/19, 9th Floor,<br>
+                       Garvebhavipalya, Hosur Road,<br>
+                       Bangalore - 560068,<br>
+                       Karnataka, India.<br>
                    </td>
                 </tr>
                 
-                <tr>
+                <tr colspan="2">
                     <br>
                     <br>
                     <a href="index.jsp" name="back">Go back</a>
