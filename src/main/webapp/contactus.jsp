@@ -20,15 +20,15 @@
         <table border="0">
             <tbody>
                 <tr>
-                    <td><strong>Call us: </strong></td>
-                    <td>We're available 24 hours a day.<br>
+                    <td width="30%"><strong>Call us: </strong></td>
+                    <td width="70%">We're available 24 hours a day.<br>
                         <b>(0124) 6151234 or 1800 208 6868</b>
                     </td>
                 </tr>
                 
                 <tr>
-                   <td><strong>Mail us:: </strong></td>
-                   <td>
+                   <td width="30%"><strong>Mail us:: </strong></td>
+                   <td width="70%">
                        Phoenix Consulting LLP,
                        Ozone Manay Tech Park,
                        58/11 & 25/19, 9th Floor,
@@ -36,6 +36,12 @@
                        Bangalore - 560068,
                        Karnataka, India.
                    </td>
+                </tr>
+                
+                <tr>
+                    <br>
+                    <br>
+                    <a href="index.jsp" name="back">Go back</a>
                 </tr>
             </tbody>
         </table>
