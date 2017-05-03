@@ -27,7 +27,7 @@
                 </tr>
                 
                 <tr>
-                   <td width="20%"><strong>Mail us:: </strong></td>
+                   <td width="20%"><strong>Mail us: </strong></td>
                    <td width="80%">
                        Phoenix Consulting LLP,<br>
                        Ozone Manay Tech Park,<br>
@@ -37,13 +37,12 @@
                        Karnataka, India.<br>
                    </td>
                 </tr>
-                
-                <tr colspan="2">
-                    <br>
-                    <br>
-                    <a href="index.jsp" name="back">Go back</a>
-                </tr>
             </tbody>
         </table>
+                        
+        <br>
+        <br>
+        <a href="index.jsp" name="back">Go back</a>
+
     </body>
 </html>
