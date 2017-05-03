@@ -28,7 +28,7 @@ public class DBConnection {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://20.0.1.50:3306/mynewdatabase","root","tiger");
+            Connection con = DriverManager.getConnection("jdbc:mysql://20.0.1.231:3306/mynewdatabase","root","tiger");
             String query = "SELECT DISTINCT subject_id, name FROM subject";
             PreparedStatement statement = con.prepareStatement(query);
             rs = statement.executeQuery();
@@ -54,7 +54,7 @@ public class DBConnection {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://20.0.1.50:3306/mynewdatabase","root","tiger");
+            Connection con = DriverManager.getConnection("jdbc:mysql://20.0.1.231:3306/mynewdatabase","root","tiger");
             String query = "SELECT * FROM counselor AS c INNER JOIN subject AS s ON c.counselor_id=s.counselor_idfk WHERE s.subject_id="+subject_id;
             PreparedStatement statement = con.prepareStatement(query);
             rs = statement.executeQuery();
