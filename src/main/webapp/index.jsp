@@ -53,6 +53,7 @@
                 </tbody>
             </table>
             <br><br>
+            <a href="contactus.jsp" name="contactus"> Contact Us</a>
             <!--<a href="contactus.jsp" name="contactus"> Contact Us</a>-->
     </body>
     
