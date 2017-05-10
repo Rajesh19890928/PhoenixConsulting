@@ -55,7 +55,11 @@
             </table>
             <br><br>
             <a href="contactus.jsp" name="contactus"> Contact Us</a>
-            <div class="topcorner"><% out.print(request.getLocalAddr()); %></div>
+            <%
+            JavaClasses.ServerCategory server = new JavaClasses.ServerCategory();
+            String servercategory = server.Server(request.getLocalAddr());
+            %>
+            <div class="topcorner"><% out.print(servercategory); %></div>
     </body>
     
 </html>
