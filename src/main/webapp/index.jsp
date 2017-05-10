@@ -55,6 +55,7 @@
             </table>
             <br><br>
             <a href="contactus.jsp" name="contactus"> Contact Us</a>
+            <div class="topcorner"><% out.print(request.getLocalAddr()); %></div>
     </body>
     
 </html>

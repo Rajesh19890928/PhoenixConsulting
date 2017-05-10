@@ -131,3 +131,9 @@ input[type=submit] {
     border-right:6px solid transparent;
     pointer-events:none;
 }
+
+.topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+  }
