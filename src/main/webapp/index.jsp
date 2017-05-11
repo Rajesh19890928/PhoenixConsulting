@@ -14,6 +14,7 @@
     <body>
         <h1>Welcome to Phoenix Consulting</h1>
         <br>
+        <h1>Code promotion demo</h1>
         <%
             JavaClasses.DBConnection obj = new JavaClasses.DBConnection();
             ResultSet rs = obj.getSubjects();
