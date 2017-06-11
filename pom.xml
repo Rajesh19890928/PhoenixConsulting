@@ -161,7 +161,7 @@
             </activation>
             <properties>
                 <database>qa_db</database>
-                <databse_url>20.0.1.45</databse_url>
+                <databse_url>20.0.1.231</databse_url>
             </properties>
         </profile>
         
@@ -175,7 +175,7 @@
             </activation>
             <properties>
                 <database>prod_db</database>
-                <databse_url>20.0.1.61</databse_url>
+                <databse_url>20.0.1.231</databse_url>
             </properties>
         </profile>        
     </profiles>
