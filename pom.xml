@@ -121,4 +121,44 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <database>dev_db</database>
+                <databse_url>20.0.1.231</databse_url>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>qa</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>qa</value>
+                </property>
+            </activation>
+            <properties>
+                <database>qa_db</database>
+                <databse_url>20.0.1.45</databse_url>
+            </properties>
+        </profile>
+        
+        <profile>
+            <id>production</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>production</value>
+                </property>
+            </activation>
+            <properties>
+                <database>prod_db</database>
+                <databse_url>20.0.1.61</databse_url>
+            </properties>
+        </profile>        
+    </profiles>
 </project>
